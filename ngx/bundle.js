@@ -13,10 +13,10 @@ var Zeep = /** @class */ (function (_super) {
     }
     Zeep.prototype.zip = function (sourceUrl, destZip, PassZip) { return core.cordova(this, "zip", { "successIndex": 2, "errorIndex": 4 }, arguments); };
     Zeep.prototype.unzip = function (sourceZip, destUrl, PassZip) { return core.cordova(this, "unzip", { "successIndex": 2, "errorIndex": 4 }, arguments); };
-    Zeep.pluginName = "Zip";
-    Zeep.plugin = "cordova-plugin-zip";
-    Zeep.pluginRef = "zip";
-    Zeep.repo = "https://github.com/MobileChromeApps/cordova-plugin-zip";
+    Zeep.pluginName = "Zeep";
+    Zeep.plugin = "cordova-plugin-zeep";
+    Zeep.pluginRef = "zeep";
+    Zeep.repo = "https://github.com/vlinde/cordova-plugin-zeep.git";
     Zeep.platforms = ["Android", "iOS"];
     Zeep.decorators = [
         { type: core$1.Injectable }

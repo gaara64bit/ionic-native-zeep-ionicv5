@@ -6,6 +6,7 @@
 
 ```
 $ ionic cordova plugin add cordova-plugin-zeep
+$ npm install https://github.com/gaara64bit/ionic-native-zeep-ionicv5.git
 ```
 
 ## [Usage Documentation](https://github.com/vlinde/cordova-plugin-zeep.git)
