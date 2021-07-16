@@ -1,0 +1,54 @@
+{
+  "_from": "@ionic-native/zeep@^0.0.4",
+  "_id": "@ionic-native/zeep@0.0.4",
+  "_inBundle": false,
+  "_integrity": "sha512-KORiBGoUtwhsH7Kx5mCcRGCn2vaS6MwxS6AqvIfuo77MMGKGyb0VxEriZgRm5QTlO9ezfGTaK8dXkwC6U5yQsg==",
+  "_location": "/@ionic-native/zeep",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@ionic-native/zeep@^0.0.4",
+    "name": "@ionic-native/zeep",
+    "escapedName": "@ionic-native%2fzeep",
+    "scope": "@ionic-native",
+    "rawSpec": "^0.0.4",
+    "saveSpec": null,
+    "fetchSpec": "^0.0.4"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/gaara64bit/ionic-native-zeep-ionicv5.git",
+  "_shasum": "3f0daf0f25659acc3699dc172acb55751b8bf951",
+  "_spec": "@ionic-native/zeep@^0.0.4",
+  "_where": "/home/dm-okky/DataKerja/RISET/IONIC/risetcsv",
+  "author": {
+    "name": "ionic"
+  },
+  "bugs": {
+    "url": "https://github.com/ionic-team/ionic-native/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@types/cordova": "latest"
+  },
+  "deprecated": false,
+  "description": "Ionic Native - Native plugins for ionic apps",
+  "homepage": "https://github.com/ionic-team/ionic-native#readme",
+  "license": "MIT",
+  "main": "bundle.js",
+  "module": "index.js",
+  "name": "@ionic-native/zeep",
+  "peerDependencies": {
+    "rxjs": "^5.5.0 || ^6.5.0",
+    "@ionic-native/core": "^5.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ionic-team/ionic-native.git"
+  },
+  "typings": "index.d.ts",
+  "version": "0.0.4"
+}
