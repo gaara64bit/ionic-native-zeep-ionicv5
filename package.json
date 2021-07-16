@@ -25,9 +25,8 @@
   ],
   "_resolved": "https://github.com/gaara64bit/ionic-native-zeep-ionicv5/archive/refs/heads/main.zip",
   "_spec": "5.34.0",
-  "_where": "/home/dm-okky/DataKerja/RISET/IONIC/CSVExport",
   "author": {
-    "name": "ionic"
+    "name": "gaara64bit"
   },
   "bugs": {
     "url": "https://github.com/ionic-team/ionic-native/issues"
@@ -40,7 +39,7 @@
   "license": "MIT",
   "main": "bundle.js",
   "module": "index.js",
-  "name": "@ionic-native/zip",
+  "name": "@ionic-native/zeep",
   "peerDependencies": {
     "rxjs": "^5.5.0 || ^6.5.0",
     "@ionic-native/core": "^5.1.0"
