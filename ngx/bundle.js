@@ -11,8 +11,8 @@ var Zeep = /** @class */ (function (_super) {
     function Zeep() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    Zeep.prototype.zip = function (sourceUrl, destZip, PassZip) { return core.cordova(this, "zip", { "successIndex": 1, "errorIndex": 2 }, arguments); };
-    Zeep.prototype.unzip = function (sourceZip, destUrl, PassZip) { return core.cordova(this, "unzip", { "successIndex": 1, "errorIndex": 2 }, arguments); };
+    Zeep.prototype.zip = function (sourceUrl, destZip, PassZip) { return core.cordova(this, "zip", { "successIndex": 2, "errorIndex": 3 }, arguments); };
+    Zeep.prototype.unzip = function (sourceZip, destUrl, PassZip) { return core.cordova(this, "unzip", { "successIndex": 2, "errorIndex": 3 }, arguments); };
     Zeep.pluginName = "Zeep";
     Zeep.plugin = "cordova-plugin-zeep";
     Zeep.pluginRef = "Zeep";
