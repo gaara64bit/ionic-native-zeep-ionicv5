@@ -13,11 +13,22 @@ import { IonicNativePlugin } from '@ionic-native/core';
  *
  * ...
  *
+ * let configZip = {
+ *      sourceUrl: '/path',
+ *      destZip: 'sample.zip',
+ *      PassZip: 'secret'
+ *   }
  *
- * this.zeep.zip('sourceUrl', 'destZip','PassZip')
+ * this.zeep.zip(configZip)
  *   .then((res: any) => console.log(res))
- *   .catch((error: any) => console.error(error));
- * this.zeep.unzip('sourceZip', 'destUrl','PassZip')
+ *   .catch((error: any) => console.error(error));\
+ *
+ * let configUnZip = {
+ *      sourceUrl: '/path',
+ *      destZip: 'sample.zip',
+ *      PassZip: 'secret'
+ *   }
+ * this.zeep.unzip(configUnZip)
  *   .then((res: any) => console.log(res))
  *   .catch((error: any) => console.error(error));
  *
@@ -33,6 +44,10 @@ export declare class Zeep extends IonicNativePlugin {
     * @param PassZip {String} Password Zip
     * @returns {Promise<number>} returns a promise that resolves with a number. 0 is success, -1 is error
     */
-    zip(sourceUrl: string, destZip: string, PassZip: string): Promise<any>;
-    unzip(sourceZip: string, destUrl: string, PassZip: string): Promise<any>;
+    zip(config: {
+        [s: string]: any;
+    }): Promise<any>;
+    unzip(config: {
+        [s: string]: any;
+    }): Promise<any>;
 }
