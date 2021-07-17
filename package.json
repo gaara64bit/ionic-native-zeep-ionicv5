@@ -1,0 +1,53 @@
+{
+  "_args": [
+    [
+      "@ionic-native/zeep@5.34.0"
+    ]
+  ],
+  "_from": "@ionic-native/zeep@5.34.0",
+  "_id": "@ionic-native/zeep@5.34.0",
+  "_inBundle": false,
+  "_location": "/@ionic-native/zeep",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@ionic-native/zeep@5.34.0",
+    "name": "@ionic-native/zeep",
+    "escapedName": "@ionic-native%2fzeep",
+    "scope": "@ionic-native",
+    "rawSpec": "5.34.0",
+    "saveSpec": null,
+    "fetchSpec": "5.34.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://github.com/gaara64bit/ionic-native-zeep-ionicv5/archive/refs/heads/main.zip",
+  "_spec": "5.34.0",
+  "author": {
+    "name": "gaara64bit"
+  },
+  "bugs": {
+    "url": "https://github.com/ionic-team/ionic-native/issues"
+  },
+  "dependencies": {
+    "@types/cordova": "latest"
+  },
+  "description": "Ionic Native - Native plugins for ionic apps",
+  "homepage": "https://github.com/ionic-team/ionic-native#readme",
+  "license": "MIT",
+  "main": "bundle.js",
+  "module": "index.js",
+  "name": "@ionic-native/zeep",
+  "peerDependencies": {
+    "rxjs": "^5.5.0 || ^6.5.0",
+    "@ionic-native/core": "^5.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ionic-team/ionic-native.git"
+  },
+  "typings": "index.d.ts",
+  "version": "5.34.0"
+}
